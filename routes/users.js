@@ -42,7 +42,7 @@ module.exports = server => {
       // Create JWT
       const token = jwt.sign(user.toJSON(), config.JWT_SECRET, {
         expiresIn: '15m'
-      });
+      }); 
 
       const { iat, exp } = jwt.decode(token);
       // Respond with token

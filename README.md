@@ -31,8 +31,8 @@ npm start
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Herbert Kavuma
+[Netgild](https://www.netgild.com and https://herbert.netgild.com)
 
 ### Version
 

@@ -33,7 +33,7 @@ module.exports = server => {
   // Add Customer
   server.post(
     '/customers',
-    rjwt({ secret: config.JWT_SECRET }),
+    // rjwt({ secret: config.JWT_SECRET }),
     async (req, res, next) => {
       // Check for JSON
       if (!req.is('application/json')) {
@@ -63,7 +63,7 @@ module.exports = server => {
   // Update Customer
   server.put(
     '/customers/:id',
-    rjwt({ secret: config.JWT_SECRET }),
+    // rjwt({ secret: config.JWT_SECRET }),
     async (req, res, next) => {
       // Check for JSON
       if (!req.is('application/json')) {
@@ -92,7 +92,7 @@ module.exports = server => {
   // Delete Customer
   server.del(
     '/customers/:id',
-    rjwt({ secret: config.JWT_SECRET }),
+    // rjwt({ secret: config.JWT_SECRET }),
     async (req, res, next) => {
       try {
         const customer = await Customer.findOneAndRemove({
