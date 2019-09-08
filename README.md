@@ -1,4 +1,4 @@
-# Restify Customer API
+# Restify API WITH JWT AUTH
 
 > RESTful API built with Node.js, Restify, Mongoose and JWT. It uses 'jsonwebtoken' to create the token and restify-jwt-community to protect routes.
 
